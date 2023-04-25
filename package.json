@@ -1,0 +1,20 @@
+{
+  "name": "leonardo-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "git@github.com:adobe/leonardo.git",
+  "author": "Nate Baldwin <nbaldwin@adobe.com>",
+  "scripts": {
+    "release": "npx lerna publish"
+  },
+  "contributors": [
+    "Larry Davis <lazdnet@gmail.com>"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
